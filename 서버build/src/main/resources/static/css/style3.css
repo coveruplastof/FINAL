@@ -1,0 +1,476 @@
+.screen {
+    display: flex;
+    flex-direction: column;
+    min-width: 372px;
+    max-width: 1440px;
+    max-height: 1024px;
+    height: 1024px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 10px;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.screen .frame {
+    display: inline-flex;
+    flex-direction: column;
+    min-width: 390px;
+    max-width: 1440px;
+    min-height: 852px;
+    max-height: 1024px;
+    align-items: center;
+    justify-content: center;
+    gap: 26px;
+    padding: 10px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.screen .view {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15px 15px;
+    padding: 40px 42px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.screen .div {
+    display: flex;
+    width: 1280px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+}
+
+.screen .frame-wrapper {
+    position: relative;
+    width: 530px;
+    height: 540px;
+}
+
+.screen .webcam-wrapper {
+    height: 540px;
+}
+
+.screen .webcam {
+    display: flex;
+    flex-direction: column;
+    width: 530px;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px 15px 17px;
+    
+    background-color: #000000;
+    position: absolute;
+    top: 0; /* 원하는 위치로 조정할 수 있습니다. */
+    left: 0;
+}
+
+
+
+
+.screen .view-wrapper {
+    position: relative;
+    width: 496px;
+    height: 48px;
+}
+
+.screen .div-wrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 4px 15px;
+    position: relative;
+}
+
+.screen .view-2 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.screen .view-3 {
+    position: relative;
+    width: 150px;
+    height: 40px;
+    background-color: #d9d9d9;
+}
+
+.screen .text-wrapper {
+    width: 131px;
+    height: 29px;
+    top: 4px;
+    left: 11px;
+    position: absolute;
+    font-family: "Noto Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.screen .frame-2 {
+    position: relative;
+    width: 500px;
+    height: 450px;
+}
+
+.screen .ellipse-wrapper {
+    height: 450px;
+    backdrop-filter: blur(4px) brightness(100%);
+    -webkit-backdrop-filter: blur(4px) brightness(100%);
+}
+
+.screen .ellipse {
+    position: relative;
+    width: 379px;
+    height: 394px;
+    top: 28px;
+    left: 60px;
+    border-radius: 189.5px/197px;
+    border: 2px solid;
+    border-color: #a32929;
+}
+
+.screen .frame-3 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.screen .frame-4 {
+    position: relative;
+    width: 580px;
+    height: 52px;
+}
+
+.screen .text-wrapper-2 {
+    width: 415px;
+    height: 38px;
+    top: 3px;
+    left: 93px;
+    position: absolute;
+    font-family: "Noto Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.screen .view-4 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 720px;
+    align-items: center;
+    justify-content: center;
+    gap: 40px 80px;
+    padding: 50px 30px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.screen .frame-5 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.screen .rectangle {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    background-color: #d9d9d9;
+}
+
+.screen .rectangle-2 {
+    width: 200px;
+    height: 100px;
+    position: relative;
+    background-color: #d9d9d9;
+}
+
+.screen .view-5 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 25px 0px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.screen .view-6 {
+    display: flex;
+    width: 1264px;
+    height: 189px;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    position: relative;
+}
+
+.screen .rectangle-3 {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    background-color: #d9d9d9;
+}
+
+.screen .right {
+    position: absolute;
+    width: 78px;
+    height: 116px;
+    top: 64px;
+    left: 1166px;
+}
+
+.screen .left {
+    position: absolute;
+    width: 78px;
+    height: 116px;
+    top: 64px;
+    left: 21px;
+}
+@media (max-width: 1440px) {
+    .screen {
+        /* 1440px 이하일 때의 스타일 정의 */
+    }
+}
+
+/* 1200px 이하일 때 스타일 변경 */
+@media (max-width: 1200px) {
+    .screen {
+        /* 1200px 이하일 때의 스타일 정의 */
+    }
+}
+
+/* 834px 이하일 때 스타일 변경 */
+@media (max-width: 834px) {
+    .screen {
+        /* 834px 이하일 때의 스타일 정의 */
+        .frame {
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            width: 100%;
+        }
+        
+        .frame .div {
+            background-color: #ffffff;
+            width: 834px;
+            height: 1194px;
+            position: relative;
+        }
+        
+        .frame .view {
+            display: flex;
+            width: 530px;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            position: absolute;
+            top: 143px;
+            left: 117px;
+            background-color: #000000;
+        }
+        
+        .frame .frame-wrapper {
+            position: relative;
+            width: 530px;
+            height: 540px;
+        }
+        
+        .frame .webcam-wrapper {
+            position: relative;
+            height: 540px;
+            top: 10px;
+        }
+        
+        .frame .webcam {
+            display: flex;
+            flex-direction: column;
+            width: 530px;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            padding: 10px 15px 17px;
+            position: relative;
+            top: -10px;
+        }
+        
+        .frame .view-wrapper {
+            position: relative;
+            width: 496px;
+            height: 48px;
+        }
+        
+        .frame .div-wrapper {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 4px 15px;
+            position: relative;
+        }
+        
+        .frame .view-2 {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            position: relative;
+            flex: 0 0 auto;
+        }
+        
+        .frame .view-3 {
+            position: relative;
+            width: 150px;
+            height: 40px;
+            background-color: #d9d9d9;
+        }
+        
+        .frame .text-wrapper {
+            position: absolute;
+            width: 131px;
+            height: 29px;
+            top: 4px;
+            left: 11px;
+            font-family: "Noto Sans-Regular", Helvetica;
+            font-weight: 400;
+            color: #000000;
+            font-size: 15px;
+            text-align: center;
+            letter-spacing: 0;
+            line-height: normal;
+        }
+        
+        .frame .view-wrapper-2 {
+            position: relative;
+            width: 500px;
+            height: 450px;
+        }
+        
+        .frame .ellipse-wrapper {
+            height: 450px;
+            backdrop-filter: blur(4px) brightness(100%);
+            -webkit-backdrop-filter: blur(4px) brightness(100%);
+        }
+        
+        .frame .ellipse {
+            position: relative;
+            width: 379px;
+            height: 394px;
+            top: 28px;
+            left: 60px;
+            border-radius: 189.5px/197px;
+            border: 2px solid;
+            border-color: #a32929;
+        }
+        
+        .frame .div-2 {
+            display: inline-flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            position: absolute;
+            top: 694px;
+            left: 42px;
+        }
+        
+        .frame .div-wrapper-2 {
+            position: relative;
+            width: 580px;
+            height: 52px;
+        }
+        
+        .frame .text-wrapper-2 {
+            position: absolute;
+            width: 415px;
+            height: 38px;
+            top: 3px;
+            left: 93px;
+            font-family: "Noto Sans-Regular", Helvetica;
+            font-weight: 400;
+            color: #000000;
+            font-size: 15px;
+            text-align: center;
+            letter-spacing: 0;
+            line-height: normal;
+        }
+        
+        .frame .view-4 {
+            display: flex;
+            flex-wrap: wrap;
+            width: 720px;
+            align-items: center;
+            justify-content: center;
+            gap: 40px 80px;
+            padding: 50px 30px;
+            position: relative;
+            flex: 0 0 auto;
+        }
+        
+        .frame .div-3 {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 10px;
+            position: relative;
+            flex: 0 0 auto;
+        }
+        
+        .frame .rectangle {
+            width: 50px;
+            height: 50px;
+            position: relative;
+            background-color: #d9d9d9;
+        }
+        
+        .frame .rectangle-2 {
+            width: 200px;
+            height: 100px;
+            position: relative;
+            background-color: #d9d9d9;
+        }
+    }
+}
+
+/* 768px 이하일 때 스타일 변경 */
+@media (max-width: 768px) {
+    .screen {
+        /* 768px 이하일 때의 스타일 정의 */
+    }
+}
+
+/* 576px 이하일 때 스타일 변경 */
+@media (max-width: 576px) {
+    .screen {
+        /* 576px 이하일 때의 스타일 정의 */
+    }
+}

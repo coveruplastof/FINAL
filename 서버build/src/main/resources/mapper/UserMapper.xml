@@ -1,0 +1,14 @@
+<!-- resources/mapper/UserMapper.xml -->
+<mapper namespace="com.last.application.dao.UserMapper">
+
+    <insert id="insertUser" parameterType="com.last.domain.entity.User">
+        INSERT INTO user (nickname, profile_image_url, email, accessToken)
+        VALUES (#{nickname}, #{profile_image_url}, #{email}, #{accessToken})
+    </insert>
+
+    <delete id="deleteUserByToken">
+        DELETE FROM user WHERE accessToken = #{accessToken}
+    </delete>
+
+
+</mapper>

@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>coverup</title>
+
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="/css/bootstrap.css" />
+  <!--slick slider stylesheet -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet" />
+  <!-- slick slider -->
+
+  <link rel="stylesheet" href="/css/slick-theme.css" />
+  <!-- font awesome style -->
+  <link href="/css/font-awesome.min.css" rel="stylesheet" />
+  <!-- Custom styles for this template -->
+  <link href="/css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="/css/responsive.css" rel="stylesheet" />
+
+  <style>
+
+    #container {
+      width: 100%;
+      height: 100%;
+      margin: 0 auto; /* container 영역을 브라우저에서 가운데 정렬하기 위해 auto설정 */
+      text-align: center; /* inline-block화 된 div들을 텍스트 마냥 center로 정렬*/
+    }
+
+    #container div{
+      display: inline-block; /* 가로로 나열하기 위해 block레벨 요소를 inline-block레벨로 전환 */
+      width: 200px; /* 영역 크기 지정 안해주면 inline 레벨처럼 내용물 만큼만 차지하기 때문에 크기 지정 */
+      height: 200px; /* 영역 크기 지정 안해주면 inline 레벨처럼 내용물 만큼만 차지하기 때문에 크기 지정 */
+    }
+  </style>
+
+</head>
+
+
+<body class="sub_page">
+
+  <div class="main_body_content">
+
+    <div class="hero_area">
+      <!-- header section strats -->
+      <header class="header_section">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg custom_nav-container ">
+            <a class="navbar-brand" href="index">
+              Coverup
+            </a>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class=""> </span>
+            </button>
+
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="productRecommand">제품 추천 <span class="sr-only">(current)</span></a>
+                </li>
+                <!--                <li class="nav-item active">-->
+                <!--                  <a class="nav-link" href="#">조합 추천 <span class="sr-only">(current)</span></a>-->
+                <!--                </li>-->
+                <li class="nav-item active">
+                  <a class="nav-link" href="javascript:handleAIClick()">AI 추천 <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="community" > community</a>
+                </li>
+
+                <li class="nav-item" id="loginNavItem">
+                  <a class="nav-link" href="javascript:kakaoToggle();"><img src="/images/KakaoTalk_20231121_161206860.png" style="height:40px" />
+                  </a>
+                </li>
+
+
+
+                <li class="nav-item" id="logoutNavItem" style="display: none;">
+                  <a class="nav-link" href="javascript:kakaoLogout();">logout</a>
+                </li>
+
+              </ul>
+              <!--마이페이지 로그인여부에따라 보이거나 안보이게끔 구현-->
+              <div class="quote_btn-container" id="mypageContainer" style="display: none;">
+                <a href="mypage">
+                  <i class="fa fa-user" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </nav>
+        </div>
+          </nav>
+        </div>
+      </header>
+      <!-- end header section -->
+    </div>
+
+    <!--login section -->
+    <div class="containerAI">
+      <h1>Face Detection</h1>
+      <div id="results"></div>
+      <button id="submitBtn">설문조사</button>
+    </div>
+    <br><br>
+    <script>
+      // SubmitBtn 요소를 가져옵니다.
+      var submitBtn = document.getElementById("submitBtn");
+
+      // SubmitBtn 클릭 이벤트에 대한 핸들러를 추가합니다.
+      submitBtn.addEventListener("click", function() {
+        // survey.html로 리디렉션합니다.
+        window.location.href = "survey1";
+      });
+    </script>
+  
+
+<!-- My Page Section -->
+    <table border="1" width="100%">
+      <tr>
+        <td align="center">
+          <section class="my_page_section layout_padding">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12 text-center">
+                  <h2 style="margin-top: -60px;">My skintype</h2>
+                  <div id="">
+                    <div class="profile-picture">
+                      <strong></strong>
+                      <div>
+                      </div>
+                      <div>
+                      </div>
+
+
+                      <div id="container">
+                        <div style="width: 400px; float: right; text-align: center; position: relative;">
+                          <div style="width:150px; height:100%; float:left;  display: inline-block; display: block; margin: 0 auto;">
+                            <img th:if="${personalcolor == 'Oblong'}" src="img/oblong.jpg" alt="Image Description" style="width:150px; height:100%;">
+                            <img th:if="${personalcolor == 'Round'}" src="img/round.jpg" alt="Image Description" style="width:150px; height:100%;">
+                            <img th:if="${personalcolor == 'Square'}" src="img/square.jpg" alt="Image Description" style="width:150px; height:100%;">
+\
+                            <p style="position: absolute; top: 0; left: 0; right: 0; background: rgba(255, 255, 255, 0.8); width:150px;">
+                            <strong>이름:</strong> <span th:text="${personalcolor}">Personal Color</span>
+                          </p>
+                            </div>
+
+                        </div>
+                        <div style="width: auto; float: left; text-align: center; position: relative;">
+                          <p style="position: absolute; top: 0; left: 0; right: 0; background: rgba(255, 255, 255, 0.8);">
+                            <strong>피부 상태:</strong> <span th:text="${faceshape}">Face Shape</span>
+                          </p>
+                          <img th:if="${faceshape == 'WINTER COOL'}" src="img/WINTER_COOL.jpg" alt="Image Description" style="width:100%; height:100%;  display: block; margin: 0 auto;">
+                          <img th:if="${faceshape == 'FALL WARM'}" src="img/SPRING_WARM.jpg" alt="Image Description" style="width:100%; height:100%; display: block; margin: 0 auto;">
+                          <img th:if="${faceshape == 'SUMMER COOL'}" src="img/SUMMER_COOL.jpg" alt="Image Description" style="width:100%; height:100%;  display: block; margin: 0 auto;">
+                          <img th:if="${faceshape == 'SPRING WARM'}" src="img/SPRING_WARM.jpg" alt="Image Description" style="width:100%; height:100%;  display: block; margin: 0 auto;">
+
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </td>
+      </tr>
+    </table>
+
+
+
+
+    <!-- End My Page Section -->
+    <!-- end login section -->
+
+
+
+    <!-- info section -->
+    <section class="info_section layout_padding2">
+      <div class="container">
+        <div class="row info_form_social_row">
+          <div class="col-md-8 col-lg-9">
+            <div class="info_form">
+              <form action="">
+                <input type="email" placeholder="Enter your email">
+                <button>
+                  <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-3">
+
+            <div class="social_box">
+              <a href="">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row info_main_row">
+          <div class="col-md-6 col-lg-3">
+            <div class="info_links">
+              <h4>
+                Menu
+              </h4>
+              <div class="info_links_menu">
+
+
+
+                <a href="productRecommand">
+                  제품 추천
+                </a>
+                <a href="#">
+                  조합 추천
+                </a>
+                <a href="AIrecommand">
+                  AI 추천
+                </a>
+                <a href="community">
+                  community
+                </a>
+                <a href="productRating">
+                  평가하기
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="info_insta">
+              <h4>
+                Instagram
+              </h4>
+              <div class="insta_box">
+                <div class="img-box">
+                  <img src="/images/insta-img.png" alt="">
+                </div>
+                <p>
+                  long established fact that a reader
+                </p>
+              </div>
+              <div class="insta_box">
+                <div class="img-box">
+                  <img src="/images/insta-img.png" alt="">
+                </div>
+                <p>
+                  long established fact that a reader
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="info_detail">
+              <h4>
+                Company
+              </h4>
+              <p class="mb-0">
+                when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <h4>
+              Contact Us
+            </h4>
+            <div class="info_contact">
+              <a href="">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span>
+                  Location
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>
+                  Call +01 1234567890
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-envelope"></i>
+                <span>
+                  demo@gmail.com
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end info_section -->
+  </div>
+
+  <!-- footer section -->
+  <footer class="container-fluid footer_section">
+    <div class="container">
+      <div class="col-md-11 col-lg-8 mx-auto">
+        <p>
+          &copy; <span id="displayYear"></span> All Rights Reserved By
+          <a href="https://html.design/">Free Html Templates</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+  <!-- footer section -->
+
+  <!-- jQery -->
+  <script  src="/js/jquery-3.4.1.min.js"></script>
+  <!-- bootstrap js -->
+  <script  src="/js/bootstrap.js"></script>
+  <!-- slick slider -->
+  <script  src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
+  <!-- custom js -->
+  <script  src="/js/custom.js"></script>
+  <!-- Google Map -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
+  <!-- End Google Map -->
+  <!--프로필사진 업로드 script-->
+  <script>
+    // 파일 업로드 버튼이 클릭되었을 때의 동작을 정의합니다.
+    document.getElementById("profileImageInput").addEventListener("change", function(event) {
+      const file = event.target.files[0]; // 업로드된 파일 가져오기
+      const reader = new FileReader();
+  
+      // 파일 읽기가 완료되었을 때의 동작을 정의합니다.
+      reader.onload = function(e) {
+        const imageElement = document.querySelector(".profile-picture img");
+        imageElement.src = e.target.result; // 읽은 파일 데이터를 이미지 소스로 설정
+      };
+  
+      // 파일 읽기 작업을 수행합니다.
+      reader.readAsDataURL(file);
+    });
+  </script>
+  <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+  <script>
+    function updateLoginButtonVisibility() {
+      const accessToken = window.Kakao.Auth.getAccessToken();
+
+      if (accessToken) {
+        // User is logged in, show the "마이페이지" link
+        document.getElementById("mypageContainer").style.display = "block";
+        document.getElementById("loginNavItem").style.display = "none";
+        document.getElementById("logoutNavItem").style.display = "block";
+      } else {
+        // User is not logged in, hide the "마이페이지" link
+        document.getElementById("mypageContainer").style.display = "none";
+        document.getElementById("loginNavItem").style.display = "block";
+        document.getElementById("logoutNavItem").style.display = "none";
+      }
+    }
+
+    window.onload = function () {
+      // Call the function on page load
+      updateLoginButtonVisibility();
+    };
+
+    window.Kakao.init("2f01f2c9fac2c1e3a5f0acd8abfb9d79");
+
+    function kakaoToggle() {
+      const accessToken = window.Kakao.Auth.getAccessToken();
+
+      if (accessToken) {
+        // User is logged in, perform logout
+        kakaoLogout();
+      } else {
+        // User is not logged in, perform login
+        kakaoLogin();
+      }
+    }
+
+    function kakaoLogin() {
+      window.Kakao.Auth.login({
+        scope: 'profile_nickname,profile_image,account_email',
+        success: function (authObj) {
+          console.log(authObj);
+          window.Kakao.API.request({
+            url: '/v2/user/me',
+            success: function (res) {
+              const kakao_account = res.kakao_account;
+              console.log(kakao_account);
+
+              // 카카오 로그인 성공 시 loginNavItem을 숨깁니다.
+              document.getElementById("mypageContainer").style.display = "block";
+              document.getElementById("loginNavItem").style.display = "none";
+              document.getElementById("logoutNavItem").style.display = "block";
+
+              // Save data to MySQL
+              saveDataToMySQL();
+            }
+          });
+        },
+        fail: function (error) {
+          console.error("Kakao login failed:", error);
+
+          // 카카오 로그인 실패 시 loginNavItem을 그대로 나타냅니다.
+          document.getElementById("mypageContainer").style.display = "none";
+          document.getElementById("loginNavItem").style.display = "block";
+          document.getElementById("logoutNavItem").style.display = "none";
+        }
+      });
+    }
+
+    <!--기존의 로그아웃 function-->
+    <!--    function kakaoLogout() {-->
+    <!--      window.Kakao.Auth.logout(function () {-->
+    <!--        console.log('Logout successful');-->
+    <!--        // Update the navigation items after logout-->
+    <!--        document.getElementById("mypageContainer").style.display = "none";-->
+    <!--        document.getElementById("loginNavItem").style.display = "block";-->
+    <!--        document.getElementById("logoutNavItem").style.display = "none";-->
+    <!--      });-->
+    <!--    }-->
+
+    <!--로그아웃시 토큰 삭제 로직-->
+    function kakaoLogout() {
+      const accessToken = window.Kakao.Auth.getAccessToken();
+
+
+      $.ajax({
+        type: 'POST',
+        url: '/logout',  // Use the appropriate endpoint URL
+        data: { accessToken: accessToken },
+        success: function (response) {
+          console.log('Logout successful:', response);
+          // Update the navigation items after logout
+          document.getElementById("mypageContainer").style.display = "none";
+          document.getElementById("loginNavItem").style.display = "block";
+          document.getElementById("logoutNavItem").style.display = "none";
+          // Call Kakao logout after removing the token on the server
+          window.Kakao.Auth.logout();
+        },
+        error: function (error) {
+          console.error('Error during logout:', error);
+        }
+      });
+    }
+
+  </script>
+
+  <script>
+    function saveDataToMySQL() {
+      const accessToken = window.Kakao.Auth.getAccessToken();
+
+      window.Kakao.API.request({
+        url: '/v2/user/me',
+        success: function (res) {
+          let users;
+
+          // Check if res.kakao_account is an array
+          if (Array.isArray(res.kakao_account)) {
+            users = res.kakao_account;
+          } else if (res.kakao_account) {
+            // If not an array, consider it as a single user
+            users = [res.kakao_account];
+          } else {
+            console.error('Error: res.kakao_account is neither an array nor an object');
+            return;
+          }
+
+          users.forEach(user => {
+            const userData = {
+              nickname: user.profile.nickname,
+              profile_image_url: user.profile.profile_image_url,
+              email: user.email,
+              accessToken: accessToken,
+            };
+
+            $.ajax({
+              type: 'POST',
+              contentType: 'application/json',
+              url: '/save-to-mysql',
+              data: JSON.stringify(userData),
+              success: function (response) {
+                console.log('Data saved successfully:', response);
+              },
+              error: function (error) {
+                console.error('Error saving data:', error);
+                console.log('Kakao account response:', userData);
+              }
+            });
+          });
+        }
+      });
+    }
+  </script>
+
+
+  <!--로그인 되어있을때만 ai 추천 클릭이동 가능-->
+  <script>
+    function handleAIClick() {
+      const accessToken = window.Kakao.Auth.getAccessToken();
+
+      if (accessToken) {
+
+        window.location.href = "/aicommunity";
+      } else {
+
+        alert("로그인이 필요합니다.");
+
+      }
+    }
+
+
+  </script>
+  <!--프로필 업로드 끝-->
+</body>
+
+</html>

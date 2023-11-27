@@ -1,0 +1,21 @@
+:root {
+    --royalblue: rgba(9, 18, 53, 1);
+    --x2navy-blue: rgba(20, 32, 46, 1);
+    --x-midnightblue: rgba(43, 66, 87, 1);
+    --x-4bluegray: rgba(136, 169, 195, 1);
+    --login-fint-font-family: "Poppins-Bold", Helvetica;
+    --login-fint-font-weight: 700;
+    --login-fint-font-size: 28px;
+    --login-fint-letter-spacing: 0px;
+    --login-fint-line-height: 100px;
+    --login-fint-font-style: normal;
+    ---font-family: "SFPro Text-Regular", Helvetica;
+    ---font-weight: 400;
+    ---font-size: 30px;
+    ---letter-spacing: 0px;
+    ---line-height: normal;
+    ---font-style: normal;
+    --collection-1: rgba(238, 0, 0, 1);
+  }
+
+  

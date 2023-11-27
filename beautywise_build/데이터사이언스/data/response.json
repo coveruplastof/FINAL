@@ -1,0 +1,352 @@
+{
+    "kind": "youtube#searchListResponse",
+    "etag": "XpfUeJ_9_xSzt_2nLgxCtETB_w4",
+    "nextPageToken": "CAoQAA",
+    "regionCode": "KR",
+    "pageInfo": {
+        "totalResults": 34,
+        "resultsPerPage": 10
+    },
+    "items": [
+        {
+            "kind": "youtube#searchResult",
+            "etag": "Q1Eq_ctd7luHR1_NJ-z1EGAIghs",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "7FVorK2O2Ac"
+            },
+            "snippet": {
+                "publishedAt": "2023-06-04T01:56:44Z",
+                "channelId": "UC0awE5h5rIOFh52li-lZObg",
+                "title": "품절 대란템 구달 청귤 비타 C 잡티 케어 세럼 (30ml+31ml) 리필 기획세트💛#올영세일 동안 28,000원 👉🏻 19,600원 무려 30% 할인중이래요...!🤫",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/7FVorK2O2Ac/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/7FVorK2O2Ac/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/7FVorK2O2Ac/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "하영필름 shyfilms",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-06-04T01:56:44Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "_HV7kLafJXMqIRww7eBnnNBeE4U",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "licLF3qlc8E"
+            },
+            "snippet": {
+                "publishedAt": "2023-09-02T11:00:36Z",
+                "channelId": "UCBlIcpkzSdcmp5G0XS7UsZA",
+                "title": "구달 청귤 세럼 9월에 사야되는 이유🍋 올영세일 기다린 나 칭찬해:)",
+                "description": "쓰담님들! 제가 #구달청귤세럼 사지말고 기다리라고 말씀드렸었는데 다들 잘 기다리셨나요?! ㅋㅋㅋ 드디어 공개된 #올영세일 역대급 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/licLF3qlc8E/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/licLF3qlc8E/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/licLF3qlc8E/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "담쓰뷰티 Dams Beauty",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-09-02T11:00:36Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "tYyDb4pHSnlIb5lzmD-Sylx6iyY",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "4RtH5TvdoME"
+            },
+            "snippet": {
+                "publishedAt": "2023-02-06T03:45:01Z",
+                "channelId": "UCE0P8Mm8dOqQJCiUqklGjEQ",
+                "title": "구달청귤비타C세럼 추천 판매순위 Top10 || 가격 평점 후기 비교",
+                "description": "요즘 가장 많이팔린 구달청귤비타C세럼 추천❤️❤️❤️ [00:01] 10위. #네이처리퍼블릭 비타페어씨 잡티 세럼 WITH 크림 기획세트 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/4RtH5TvdoME/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/4RtH5TvdoME/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/4RtH5TvdoME/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "쇼핑헬퍼",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-02-06T03:45:01Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "aMGcpqMNUQLbRw_S_K_-9Q4QBXk",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Jt4mlvMcCng"
+            },
+            "snippet": {
+                "publishedAt": "2023-06-08T21:42:18Z",
+                "channelId": "UCDaMXVEOx07UgZSgqpbwdXQ",
+                "title": "2023년 6월 구달청귤비타c세럼  가성비 추천 리뷰 추천순위 top10",
+                "description": "2023년 6월 구달청귤비타c세럼 가성비 추천 리뷰❤️❤️❤️ !!*이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Jt4mlvMcCng/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Jt4mlvMcCng/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Jt4mlvMcCng/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "싸다구",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-06-08T21:42:18Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "rplBUg5K8F0CdXdoYcidWUr-NCM",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "VR332OMPzjE"
+            },
+            "snippet": {
+                "publishedAt": "2023-05-21T23:53:04Z",
+                "channelId": "UC0BZcD_RGc0z3MnvlKp-4Jg",
+                "title": "광고 구달청귤비타c세럼 좋은 제품만! 정리해 봤어요 추천 TOP10",
+                "description": "좋은 제품만! 구달청귤비타c세럼 정리해 봤어요❤️❤️❤️ [00:06] 10위. #구달 청귤 비타C 잡티케어 세럼 리필팩 31ml, 리필팩 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/VR332OMPzjE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/VR332OMPzjE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/VR332OMPzjE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "도와드려요!",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-05-21T23:53:04Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "m0DfvN3vjYtcCLAQJWcK7PFve3o",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "S7BbGwJKpwE"
+            },
+            "snippet": {
+                "publishedAt": "2023-01-13T23:43:21Z",
+                "channelId": "UCy87V_ES2w0ErQ5ALguQyVg",
+                "title": "구달청귤비타c세럼 나를 위한 상품! 구경하세요 추천 TOP10",
+                "description": "나를 위한 상품! 구달청귤비타c세럼 구경하세요❤️❤️❤️ [00:06] 10위. #[단독기획] 구달 청귤 비타C 잡티 톤업 크림 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/S7BbGwJKpwE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/S7BbGwJKpwE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/S7BbGwJKpwE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "쇼핑의 모든것!",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-01-13T23:43:21Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "NBRa9YoIki20_pFjE5qxdX7LScI",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "iUM8xhBb50A"
+            },
+            "snippet": {
+                "publishedAt": "2023-06-01T21:00:22Z",
+                "channelId": "UCEYW8ZTL0Pz6q9v2Ts4-xvg",
+                "title": "구달청귤비타c세럼 추천 2023년 6월 구경하세요 추천순위 TOP10",
+                "description": "추천 2023년 6월 구달청귤비타c세럼 구경하세요❤️❤️❤️ 이 포스팅은 쿠팡파트너스 활동의 일환으로, 이에 따른 일정액의 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/iUM8xhBb50A/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/iUM8xhBb50A/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/iUM8xhBb50A/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "알뜰살뜰",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-06-01T21:00:22Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "jOEVM4vJmq8LUp2xzoXREE8loBk",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "fo0VSIuSAzo"
+            },
+            "snippet": {
+                "publishedAt": "2023-08-02T10:00:36Z",
+                "channelId": "UCOqZjAYcLXiHPrxhbakcslQ",
+                "title": "일단 보이면 사야하는 🔥 올리브영 품절대란템 (+지금 매장에 없을지도...)",
+                "description": "올리브영추천템 #올영세일추천템 언제 품절될 지 모름주의   구달 청귤 비타C 잡티 케어 세럼 50ml +50ml 대용량 리필 기획!",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/fo0VSIuSAzo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/fo0VSIuSAzo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/fo0VSIuSAzo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "채우 Chaewoo",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-08-02T10:00:36Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "m32Kq856hZjSjYjyAkzoqlVkb8Q",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "l-HzWj2UZew"
+            },
+            "snippet": {
+                "publishedAt": "2023-09-01T12:13:54Z",
+                "channelId": "UCr9dFkKR6sX8YJRXUTYIwqA",
+                "title": "곧 40살 아저씨의 올영 세일 추천템! 이것만 사도 반은 성공",
+                "description": "올영세일 #스킨케어추천 벌써 N병째 사용 중인 글리 pick! #세럼추천 구달 청귤 비타C 잡티 케어 세럼 8/31 ~ 9/6 7일 동안 청귤 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/l-HzWj2UZew/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/l-HzWj2UZew/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/l-HzWj2UZew/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "글리glee",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-09-01T12:13:54Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "jp-GggUGq7y29UTETcviT4H8Z3g",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "MssrfLtPuic"
+            },
+            "snippet": {
+                "publishedAt": "2023-06-18T23:00:11Z",
+                "channelId": "UCEC4pPQ1ae7N_EnMY929jtg",
+                "title": "구달청귤비타C세럼 추천 빅데이터 분석: 가격, 상품평, 구매량으로 본 10가지 상품",
+                "description": "1위 : 구달 청귤 비타 c 세럼 30ml+31ml 기획 가격 : 29000 제품구매링크 : https://link.coupang.com/a/1uVMR 2위 : [100ml 구성] 구달 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/MssrfLtPuic/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/MssrfLtPuic/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/MssrfLtPuic/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "쇼핑파인더",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-06-18T23:00:11Z"
+            }
+        }
+    ]
+}

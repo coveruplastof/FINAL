@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.last.application.mapper.RecommandMapper">
+    <select id="selectRecommand" resultType="com.last.application.dto.StringVO">
+            SELECT essence,skin,crime,location FROM recommand
+    </select>
+
+
+
+
+    <insert id="createRecommand" parameterType="com.last.application.dto.StringVO">
+        update recommand set essence = #{essence} , skin=#{skin}, crime=#{crime},location=#{location} where skin_id = #{skin_id}
+    </insert>
+
+    <update id="updateRecommand" >
+        update recommand set essence = #{essence} , skin=#{skin}, crime=#{crime},loation=#{location} where skin_id = 1
+    </update>
+
+    <delete id="deleteRecommand">
+        truncate table recommand
+    </delete>
+
+</mapper>
